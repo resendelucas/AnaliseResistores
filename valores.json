@@ -1,0 +1,59 @@
+{
+    "valor-faixa": {
+
+        "preto": "0",
+        "marrom": "1",
+        "vermelho": "2",
+        "laranja": "3",
+        "amarelo": "4",
+        "verde": "5",
+        "azul": "6",
+        "violeta": "7",
+        "cinza": "8",
+        "branco": "9"
+    },
+
+    "valores-multiplicador":{
+
+        "preto": "1",
+        "marrom": "10",
+        "vermelho": "100",
+        "laranja": "1000",
+        "amarelo": "10000",
+        "verde": "100000",
+        "azul": "1000000",
+        "violeta": "10000000",
+        "cinza": "100000000",
+        "branco": "1000000000",
+        "dourado": "0.1",
+        "prata": "0.01"
+
+    },
+
+    "valores-tolerancia": {
+        "marrom": "1",
+        "vermelho": "2",
+        "verde": "0.5",
+        "azul": "0.25",
+        "violeta": "0.1",
+        "cinza": "0.05",
+        "dourado": "5",
+        "prata": "10"
+    },
+    
+    "cor-rgb" : {
+        "preto": "rgb(31, 28, 28)",
+        "marrom": "rgb(98, 53, 24)",
+        "vermelho": "rgb(201, 45, 45)",
+        "laranja": "rgb(241, 160, 9)",
+        "amarelo": "rgb(247, 243, 14)",
+        "verde": "rgb(64, 133, 64)",
+        "azul": "rgb(69, 69, 253)",
+        "violeta": "rgb(153, 77, 153)",
+        "cinza": "rgb(128, 126, 126)",
+        "branco": "rgb(255, 246, 246)",
+        "dourado": "rgb(255, 217, 0)",
+        "prata" : "rgb(205, 204, 204)"
+    }
+}
+

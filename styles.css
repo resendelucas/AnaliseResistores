@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(34, 92, 147);
+    font-family: 'Basic', sans-serif;
+}
+
+.resistor {
+    display: flex;
+    justify-content: center;
+}
+
+
+.faixas {
+    min-width: 275px;
+    height: 100px;
+    background-color: rgb(233, 200, 150);
+    display: flex;
+}
+
+
+.faixinhas {
+    width: 40px;
+    height: 100px;
+}
+
+
+#primeira-faixa{
+    margin-left: 10px;
+    background-color: rgb(74, 32, 17);
+}
+
+.faixinhas:nth-child(2){
+    margin-left: 25px;
+    background-color: black;
+}
+
+.faixinhas:nth-child(3){
+    margin-left: 25px;
+    background-color: red;
+}
+
+.faixinhas:nth-child(4){
+    margin-left: 40px;
+    background-color: rgb(255, 217, 0);
+}
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 84px;
+    left: -50px;
+    min-width: 120px;
+    padding: 0%;
+}
+
+.dropdown-content li  {
+    color: white;
+    padding: 12px 10px;
+    display: block;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.dropdown-content:hover li {
+    cursor: pointer;
+}
+
+#primeira-faixa:hover .dropdown-content{
+    display: block;
+}
+#segunda-faixa:hover .dropdown-content{
+    display: block;
+}
+#terceira-faixa:hover .dropdown-content{
+    display: block;
+}
+#quarta-faixa:hover .dropdown-content{
+    display: block;
+}
+
+
+.texto {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+h1, h2 {
+    color: white;
+}
